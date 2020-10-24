@@ -22,3 +22,8 @@ select
   CONCAT(UPPER(name), ', ', UPPER(country)) as LOCATION
 FROM
   cities
+  
+select
+  LOWER(CONCAT(name, ', ', country)) as LOCATION
+FROM
+  cities
